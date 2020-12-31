@@ -1,388 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"/>
-    <title>Shubham Jain</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <title>Shubham Jain</title>
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+  <link rel="stylesheet" href="assets/css/owl.css" />
+  <link rel="stylesheet" href="assets/css/lightbox.css" />
+</head>
+
+<body>
+  <div id="page-wraper">
+    <!-- Sidebar Menu -->
+    <div class="responsive-nav">
+      <i class="fa fa-bars" id="menu-toggle"></i>
+      <div id="menu" class="menu">
+        <i class="fa fa-times" id="menu-close"></i>
+        <div class="container">
+          <div class="image">
+            <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+          </div>
+          <div class="author-content">
+            <h4>Shubham Jain</h4>
+            <span>Web Developer <br> & OpenSource Contributor</span>
+          </div>
+          <nav class="main-nav" role="navigation">
+            <ul class="main-menu">
+              <li><a href="#section1">About Me</a></li>
+              <li><a href="#section2">Experience</a></li>
+              <li><a href="#section3">My Projects</a></li>
+              <li><a href="#section4">Contact Me</a></li>
+            </ul>
+          </nav>
+          <div class="social-network">
+            <ul class="soial-icons">
+              <li>
+                <a href="https://www.linkedin.com/in/shubham-jain-79b74712a/"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/shubham00jain"><i class="fa fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-text">
+            <p>Copyright 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section about-me" data-section="section1">
+      <div class="container">
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <div class="line-dec"></div>
+          <span>
+            Hi there! I am Shubham Jain. Nice to meet you! I am a highly motivated 3rd year B.Tech Computer Science
+            student and a forever learner.
+            I love to work on and learn about web technologies, computer graphics and Artifical Intelligence.
+            I enjoy video-game development and music in my free time. Ask me what I'm learning today!
+          </span>
+        </div>
+        <div class="right-image-post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left-text">
+                <h4>Programming Languages:</h4>
+                <p>
+                  C/C++ <br>
+                  JavaScript <br>
+                  Python
+                </p>
+              </div>
             </div>
-            <div class="author-content">
-              <h4>Shubham Jain</h4>
-              <span>CS Student</span>
-            </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">Experience</a></li>
-                <li><a href="#section3">My Projects</a></li>
-                <li><a href="#section4">Contact Me</a></li>
-              </ul>
-            </nav>
-            <div class="social-network">
-              <ul class="soial-icons">
-                <li>
-                  <a href="https://www.linkedin.com/in/shubham-jain-79b74712a/"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a href="https://github.com/shubham00jain"><i class="fa fa-github"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="copyright-text">
-              <p>Copyright 2020</p>
+            <div class="col-md-6">
+              <div class="right-text">
+                <h4> Tools and Technologies:</h4>
+                <p>
+                  Node.js <br>
+                  MongoDB <br>
+                  CSS3 and HTML5 <br>
+                  Bootstrap <br>
+                  git/ github/ gerrit <br>
+                  gtk <br>
+                  Phabricator <br>
+                  Babylon.js <br>
+
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <section class="section about-me" data-section="section1">
-        <div class="container">
-          <div class="section-heading">
-            <h2>About Me</h2>
-            <div class="line-dec"></div>
-            <span>
-              Hi there! I am Shubham Jain. Nice to meet you! I am a highly motivated 3rd year B.Tech Computer Science student and a forever learner. 
-              I love to work on and learn about web technologies, computer graphics and Artifical Intelligence.
-              I enjoy video-game development and music in my free time. Ask me what I'm learning today! 
-            </span>
+    <section class="section my-services" data-section="section2">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Internships and Opensource Contributions</h2>
+          <div class="line-dec"></div>
+          <span>
+            I love to contribute to opensource software. I am always looking around for something new to learn in my
+            free time.
+            Here are some of my most important internships and opensource contributions. <br>
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="service-item">
+              <a href="https://snaptrude.com/">
+                <div class="first-service-icon service-icon"></div>
+              </a>
+              <h4>Software Engineering Intern at Snaptrude</h4>
+              <p>
+                I interned at a web startup called Snaptrude in my 2nd year summer vacations. Snaptrude is a SaaS
+                software which
+                aims to bring all the architect tools together. <br> <br> I worked on the backend of a AutoCAD plugin. I
+                imported many of the
+                data types using AutoCAD's API called ForgeAPI and then converted them into graphical components. <br>
+                <br> Tools and Technologies used:
+                ForgeAPI, C#, JavaScript, and Babylon.js.
+
+              <div>
+                <span class="center">
+                  <a href="https://snaptrude.com/"><button type="submit" id="form-submit" class="btn btn-danger">
+                      Profile
+                    </button></a>
+              </div>
+
+
+              </p>
+            </div>
           </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <a href="https://gerrit.wikimedia.org/r/q/owner:shubham656jain%2540gmail.com">
+                <div class="first-service-icon service-icon"></div>
+              </a>
+              <h4>OpenSource Contributor at Wikimedia Foundation</h4>
+              <p>
+                Wikimedia is the parent organization of Wikipedia, Wikiquote, Wiktionary etc. <br> <br> I am an active
+                contributor
+                in many of the projects in wikimedia foundation like Pywikibot, Mediawiki Core, Skins, Upload Wizard
+                etc. I have
+                solved small bugs and have done small improvements like improving search queries etc. <br> <br>Tools and
+                Technologies used:
+                Python, PHP, JavaScript, git, gerrit, Phabricator.
+
+              <div>
+                <span class="center">
+                  <a href="https://gerrit.wikimedia.org/r/q/owner:shubham656jain%2540gmail.com"><button type="submit"
+                      id="form-submit" class="btn btn-danger">
+                      Profile
+                    </button></a>
+              </div>
+
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <a href="https://gerrit.libreoffice.org/q/owner:shubham656jain%2540gmail.com">
+                <div class="first-service-icon service-icon"></div>
+              </a>
+              <h4>OpenSource contributor at LibreOffice</h4>
+              <p>
+                LibreOffice is a free and opensource office suite like MS Office. I have done contributions like
+                refactoring legacy code
+                and Unit Tests, cleaning old UI and redundant components and adding new enhancements. <br> <br> Tools
+                and Technologies used:
+                C++, gtk+, glade.
+              </p>
+
+              <div>
+                <span class="center">
+                  <a href="https://gerrit.libreoffice.org/q/owner:shubham656jain%2540gmail.com"><button type="submit"
+                      id="form-submit" class="btn btn-danger">
+                      Profile
+                    </button></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section my-work" data-section="section3">
+      <div class="container">
+        <div class="section-heading">
+          <h2>My Projects</h2>
+          <div class="line-dec"></div>
+          <span>
+            Here are some of my projects which I made while learning technologies like Node.Js, CSS3, JavaScript etc.
+          </span>
           <div class="right-image-post">
             <div class="row">
               <div class="col-md-6">
                 <div class="left-text">
-                  <h4>Programming Languages:</h4>
+                  <h4>Nirogi - A Health Web App</h4>
                   <p>
-                    C/C++ <br>
-                    JavaScript <br>
-                    Python
+                    This is a prototype of a Health Web App in which users can take free online mental and physical
+                    health tests and
+                    make an appointment to a doctor. The website then scores the user on the basis of these tests and
+                    recommends blogs and
+                    videos to improve their health. <br> <br>
+                    Technologies used: HTML, CSS, JavaScript, MongoDB, Node.js
+                  <div>
+                    <span class="text-left">
+                      <a href="https://health-web-app.herokuapp.com/"><button type="submit" id="form-submit"
+                          class="button">
+                          Website
+                        </button></a>
+                    </span>
+                    <span class="text-right">
+                      <a href="https://github.com/shubham00jain/Health-WebApp">
+                        <button type="submit" id="form-submit" class="button">
+                          Github
+                        </button>
+                      </a>
+                    </span>
+                  </div>
                   </p>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="right-text">
-                  <h4> Tools and Technologies:</h4>
+                <div class="left-text" style="text-align: center;">
+                  <h4>MovieAPI</h4>
                   <p>
-                    Node.js <br>
-                    MongoDB <br>
-                    CSS3 and HTML5 <br>
-                    Bootstrap <br>
-                    git/ github/ gerrit <br>
-                    gtk <br>
-                    Phabricator <br>
-                    Babylon.js <br>
-
+                    This is an API which is used to search about all the movies present in the database of IMDB.
+                    This API uses the API of OMDB in the backend.<br> <br> <br> <br>
+                    Technologies used: HTML, CSS, JavaScript, OMDB API, Node.js
+                  <div>
+                    <span class="text-left">
+                      <a href="https://movie-search-webapi.herokuapp.com/search"><button type="submit" id="form-submit"
+                          class="button">
+                          Website
+                        </button></a>
+                    </span>
+                    <span class="text-right">
+                      <a href="https://github.com/shubham00jain/MovieAPI">
+                        <button type="submit" id="form-submit" class="button">
+                          Github
+                        </button>
+                      </a>
+                    </span>
+                  </div>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Internships and Opensource Contributions</h2>
-            <div class="line-dec"></div>
-            <span>
-              I love to contribute to opensource software. I am always looking around for something new to learn in my free time. 
-              Here are some of my most important internships and opensource contributions. <br>
-            </span>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-text" style="text-align: center;">
+              <h4> Music Player</h4>
+              <p>
+                This is a Music Player designed using python's Defacto GUI toolkit Tkinter.
+                It has all the features of a default music player like playing a song, switching songs,
+                etc. with a user friendly GUI.
+                <br> <br>
+                Technologies used: Python3, Pygame module, Tkinter module, Ttk module, Time module
+              <div>
+                <span class="text-center">
+                  <a href="https://github.com/shubham00jain/Music-Player-tkinter">
+                    <button type="submit" id="form-submit" class="button">
+                      Github
+                    </button>
+                  </a>
+                </span>
+              </div>
+              </p>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">
-                <a href="https://snaptrude.com/"><div class="first-service-icon service-icon"></div></a>
-                <h4>Software Engineering Intern at Snaptrude</h4>
-                <p>
-                  I interned at a web startup called Snaptrude in my 2nd year summer vacations. Snaptrude is a SaaS software which 
-                  aims to bring all the architect tools together. <br> <br> I worked on the backend of a AutoCAD plugin. I imported many of the 
-                  data types using AutoCAD's API called ForgeAPI and then converted them into graphical components. <br> <br> Tools and Technologies used: 
-                  ForgeAPI, C#, JavaScript, and Babylon.js.
-
-                  <div>
-                    <span class="center">
-                      <a href="https://snaptrude.com/"><button type="submit" id="form-submit" class="btn btn-danger">
-                        Profile
-                      </button></a>
-                  </div>
-
-
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <a href="https://gerrit.wikimedia.org/r/q/owner:shubham656jain%2540gmail.com"><div class="first-service-icon service-icon"></div></a>
-                <h4>OpenSource Contributor at Wikimedia Foundation</h4>
-                <p>
-                  Wikimedia is the parent organization of Wikipedia, Wikiquote, Wiktionary etc. <br> <br>  I am an active contributor 
-                  in many of the projects in wikimedia foundation like Pywikibot, Mediawiki Core, Skins, Upload Wizard etc. I have
-                  solved small bugs and have done small improvements like improving search queries etc. <br> <br>Tools and Technologies used: 
-                  Python, PHP, JavaScript, git, gerrit, Phabricator.
-
-                  <div>
-                    <span class="center">
-                      <a href="https://gerrit.wikimedia.org/r/q/owner:shubham656jain%2540gmail.com"><button type="submit" id="form-submit" class="btn btn-danger">
-                        Profile
-                      </button></a>
-                  </div>
-
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <a href="https://gerrit.libreoffice.org/q/owner:shubham656jain%2540gmail.com"><div class="first-service-icon service-icon"></div></a>
-                <h4>OpenSource contributor at LibreOffice</h4>
-                <p>
-                  LibreOffice is a free and opensource office suite like MS Office. I have done contributions like refactoring legacy code 
-                  and Unit Tests, cleaning old UI and redundant components and adding new enhancements. <br> <br> Tools and Technologies used:
-                  C++, gtk+, glade.
-                </p>
-
-                <div>
-                  <span class="center">
-                    <a href="https://gerrit.libreoffice.org/q/owner:shubham656jain%2540gmail.com"><button type="submit" id="form-submit" class="btn btn-danger">
-                      Profile
+          <div class="col-md-6">
+            <div class="right-text" style="text-align: center;">
+              <h4> Alumni Registeration Portal</h4>
+              <p>
+                This project was submitted to SIH 2019. The portal had a complete interface through which
+                the officials can post information on the dashboard for all Alumni. It also had a beta chatting feature
+                by which Alumi can talk to each other. <br> <br>
+                Technologies used: HTML, CSS, JavaScript, MongoDB, Node.js
+              <div>
+                <span class="text-left">
+                  <a href="#"><button type="submit" id="form-submit" class="button">
+                      Website
                     </button></a>
-                </div>
-
+                </span>
+                <span class="text-right">
+                  <a href="https://github.com/shubham00jain">
+                    <button type="submit" id="form-submit" class="button">
+                      Github
+                    </button>
+                  </a>
+                </span>
               </div>
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section my-work" data-section="section3">
-        <div class="container">
-          <div class="section-heading">
-            <h2>My Projects</h2>
-            <div class="line-dec"></div>
-            <span>
-              Here are some of my projects which I made while learning technologies like Node.Js, CSS3, JavaScript etc.
-            </span>
-            <div class="right-image-post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="left-text">
-                    <h4>Nirogi - A Health Web App</h4>
-                    <p>
-                      This is a prototype of a Health Web App in which users can take free online mental and physical health tests and 
-                      make an appointment to a doctor. The website then scores the user on the basis of these tests and recommends blogs and
-                      videos to improve their health. <br>
-                      Technologies used: HTML, CSS, JavaScript, MongoDB, Node.js
-                      <div>
-                        <span class="text-left">
-                          <a href="https://health-web-app.herokuapp.com/"><button type="submit" id="form-submit" class="button">
-                            Website
-                          </button></a>
-                        </span>
-                        <span class="text-right">
-                          <a href="https://github.com/shubham00jain/Health-WebApp">
-                            <button type="submit" id="form-submit" class="button">
-                              Github
-                            </button>
-                          </a>
-                        </span>
-                      </div>
-                    </p>
+    <section class="section contact-me" data-section="section4">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Contact Me</h2>
+          <div class="line-dec"></div>
+          <span>
+            I'm always open for good opportunities or a nice talk :) <br>
+            Fill the form and I'll get back to you!
+          </span>
+        </div>
+        <div class="row">
+          <div class="right-content">
+            <div class="container">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Your name..."
+                        required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" placeholder="Your email..."
+                        required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..."
+                        required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..."
+                        required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">
+                        Send Message
+                      </button>
+                    </fieldset>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="right-text">
-                    <h4> Alumni Registeration Portal</h4>
-                    <p>
-                      This project was submitted to SIH 2019. The portal had a complete interface through which 
-                      the officials can post information on the dashboard for all Alumni. It also a beta chatting feature
-                      by which Alumi can talk to each other. <br> <br>
-                      Technologies used: HTML, CSS, JavaScript, MongoDB, Node.js
-                      <div>
-                        <span class="text-left">
-                          <a href="#"><button type="submit" id="form-submit" class="button">
-                            Website
-                          </button></a>
-                        </span>
-                        <span class="text-right">
-                          <a href="https://github.com/shubham00jain">
-                            <button type="submit" id="form-submit" class="button">
-                              Github
-                            </button>
-                          </a>
-                        </span>
-                      </div>
-                    </p>
-                  </div>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+  </div>
 
-      <section class="section contact-me" data-section="section4">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact Me</h2>
-            <div class="line-dec"></div>
-            <span>
-              I'm always open for good opportunities or a nice talk :) <br>
-              Fill the form and I'll get back to you!
-            </span>
-          </div>
-          <div class="row">
-            <div class="right-content">
-              <div class="container">
-                <form id="contact" action="" method="post">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="name"
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          placeholder="Your name..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="email"
-                          type="text"
-                          class="form-control"
-                          id="email"
-                          placeholder="Your email..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input
-                          name="subject"
-                          type="text"
-                          class="form-control"
-                          id="subject"
-                          placeholder="Subject..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea
-                          name="message"
-                          rows="6"
-                          class="form-control"
-                          id="message"
-                          placeholder="Your message..."
-                          required=""
-                        ></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="button">
-                          Send Message
-                        </button>
-                      </fieldset>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    //according to loftblog tut
+    $(".main-menu li:first").addClass("active");
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
+    var showSection = function showSection(section, isAnimate) {
+      var direction = section.replace(/#/, ""),
+        reqSection = $(".section").filter(
+          '[data-section="' + direction + '"]'
+        ),
+        reqSectionPos = reqSection.offset().top - 0;
 
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
+      if (isAnimate) {
+        $("body, html").animate(
+          {
+            scrollTop: reqSectionPos
+          },
+          800
+        );
+      } else {
+        $("body, html").scrollTop(reqSectionPos);
+      }
+    };
 
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
+    var checkSection = function checkSection() {
+      $(".section").each(function () {
+        var $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
+          var currentId = $this.data("section"),
+            reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+          reqLink
+            .closest("li")
+            .addClass("active")
+            .siblings()
+            .removeClass("active");
         }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
       });
+    };
 
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
-  </body>
+    $(".main-menu").on("click", "a", function (e) {
+      e.preventDefault();
+      showSection($(this).attr("href"), true);
+    });
+
+    $(window).scroll(function () {
+      checkSection();
+    });
+  </script>
+</body>
+
 </html>
